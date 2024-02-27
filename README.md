@@ -1,8 +1,20 @@
-## Convolutional neural network in PyTorch using the Fashion MNIST dataset
-Install:
- ```pip install torch torchvision```</br>
+## Convolutional Neural Network in PyTorch using Fashion MNIST
 
- For compatiability with CUDA 11.2 install this instead:</br>
- ```pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113```
+This project implements a convolutional neural network (CNN) model in PyTorch for classifying fashion items from the Fashion MNIST dataset.
 
- ![image](https://github.com/anthony-som/fashion-cnn/assets/98991855/de143ecc-b41f-45e5-9fa5-09a6fa3f9e2b)
+**Requirements:**
+
+- Python 3.9.0
+- PyTorch
+
+**Installation:**
+
+For basic functionality:
+
+```bash
+pip install torch torchvision
+```
+For compatibility with CUDA 11.2:
+```bash
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url [https://download.pytorch.org/whl/cu113](https://download.pytorch.org/whl/cu113)
+```
