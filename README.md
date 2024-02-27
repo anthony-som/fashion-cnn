@@ -16,5 +16,5 @@ pip install torch torchvision
 ```
 For compatibility with CUDA 11.2:
 ```bash
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url [https://download.pytorch.org/whl/cu113](https://download.pytorch.org/whl/cu113)
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
